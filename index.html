@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Lisa占い</title>
+    <link rel="stylesheet"  href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div id="title">Lisa 占い</div>
+      <div class="a">
+        <p>あなたの生年月日を教えてください</p>
+        <p class="b">(必須)</p>
+      </div>
+       <div id="birthday">
+        <input type="text" id="year">
+        <label for="year">年</label>
+        <input type="text" id="month">
+        <label for="month">月</label>
+        <input type="text" id="day">
+        <label for="day" >日</label>
+      </div>
+      <p>あなたの性別を教えてください</p>
+      <div id="gender">
+        <input type="radio" name="gender" value="woman" >女性
+        <input type="radio" name="gender" value="man">男性
+      </div>
+      <p>あなたの名前を教えてください</p>
+      <input type="text" id="name">
+      <div  id="btn">無料診断</div>
+    </header>
+
+     <main>
+        <div id="resultTitle">Lisa占い 結果</div>
+        <p>ラッキー度</p>
+        <div id="lucky"></div>
+        <p>恋愛運</p>
+        <div id="love"></div>
+        <p>仕事運</p>
+        <div id="work"></div>
+        <p>金運</p>
+        <div id="money"></div>
+        <p>ラッキーアイテム</p>
+        <div id="item"></div>
+        <div id="returnBtn">戻る</div>
+     </main> 
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

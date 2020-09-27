@@ -1,0 +1,135 @@
+body{
+  background: #eee;
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.4s;
+  }
+
+  /* ヘッダー部分のデザイン */
+header{
+  background: #ffc0cb;
+  width:400px;
+  height: 360px;
+  margin: 16px auto;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+header #title,main #resultTitle{
+  font-weight: bold;
+  font-size: 30px;
+  background:#ffefd5 ;
+  margin:10px 40px;
+  border-radius: 10px;
+}
+
+header #birthday{
+  width: 350px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+#birthday > input{
+  background: #fff;
+  width: 40px;
+}
+
+#birthday > label{
+  margin: 4px;
+}
+header >p, main >p{
+  margin-bottom: 4px;
+}
+
+#gender{
+  margin:20px auto;
+  margin-top: 0;
+}
+
+#name {
+  background: #fff;
+  border: 2px solid  ;
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+  line-height: 25px;
+  padding: 0;
+
+}
+
+#btn ,#returnBtn {
+  background:#ccc ;
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 4px;
+  border: 2px solid  #999999;
+  box-shadow:0px 2px #8888;
+  user-select: none;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+
+/* メイン部分のデザイン */
+main{
+  background: #008080;
+  width:400px;
+  height: 600px;
+  margin: 16px auto;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+#lucky,#item{
+  background: rgba(255, 255, 255, 0.699);
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+  line-height: 25px;
+  padding: 0;
+  font-size: 30px;
+  padding-top: 4px;
+  padding-bottom: -5px;
+}
+#item{
+  font-size: 14px;
+}
+main >p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#love,#work,#money{
+  background: rgba(255, 255, 255, 0.699);
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0;
+  padding-top: 4px;
+  padding-bottom: -5px;
+}
+
+.clear{
+  transform: translateY(-1100px);
+}
+
+.NotClear{
+  transform: translateY(-385px);
+}
+.a{
+  display: flex;
+  justify-content: center;
+}
+.b{
+  color: red;
+}
