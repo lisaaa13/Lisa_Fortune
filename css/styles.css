@@ -8,7 +8,7 @@ body{
   /* ヘッダー部分のデザイン */
 header{
   background: #ffc0cb;
-  width:400px;
+  width:375px;
   height: 360px;
   margin: 16px auto;
   text-align: center;
@@ -80,7 +80,7 @@ header >p, main >p{
 /* メイン部分のデザイン */
 main{
   background: #008080;
-  width:400px;
+  width:375px;
   height: 600px;
   margin: 16px auto;
   text-align: center;
